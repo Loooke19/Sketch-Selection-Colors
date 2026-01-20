@@ -1,0 +1,24 @@
+{
+    "name": "Layer Color Viewer",
+    "description": "View and select layers by colors - with auto refresh",
+    "author": "Luke",
+    "version": "0.2.0",
+    "identifier": "com.luke.layer-color-viewer",
+    "bundleVersion": 1,
+    "disableCocoaScriptPreprocessor": true,
+    "commands": [
+        {
+            "name": "Show Colors",
+            "identifier": "show-colors",
+            "script": "main.js",
+            "handler": "showSelectionColors",
+            "shortcut": "ctrl shift x"
+        }
+    ],
+    "menu": {
+        "title": "Layer Color Viewer",
+        "items": [
+            "show-colors"
+        ]
+    }
+}

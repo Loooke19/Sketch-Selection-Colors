@@ -1,0 +1,24 @@
+{
+    "name": "Color Picker Pro",
+    "description": "View and select layers by colors",
+    "author": "Luke",
+    "version": "0.1.0",
+    "identifier": "com.luke.color-picker-pro",
+    "bundleVersion": 1,
+    "disableCocoaScriptPreprocessor": true,
+    "commands": [
+        {
+            "name": "Show Colors",
+            "identifier": "show-colors",
+            "script": "main.js",
+            "handler": "showSelectionColors",
+            "shortcut": "ctrl shift x"
+        }
+    ],
+    "menu": {
+        "title": "Color Picker Pro",
+        "items": [
+            "show-colors"
+        ]
+    }
+}
