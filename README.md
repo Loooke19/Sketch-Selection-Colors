@@ -23,7 +23,7 @@
 
 ## 📦 安装方法
 
-1. 从 [Releases](https://github.com/Loooke19/Sketch-Selection-colors/releases) 页面下载最新版本的 `.zip` 文件
+1. 从 [Releases](https://github.com/Loooke19/Sketch-Selection-Colors/releases) 页面下载最新版本的 `.zip` 文件
 2. 解压后双击 `.sketchplugin` 文件即可安装
 
 ## 📋 版本历史
